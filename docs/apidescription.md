@@ -1,11 +1,14 @@
 # 易龙平台接口说明
 
 ## 简介
+```
+请求基本地址:http://117.34.112.55:8070
+```
 
 ### Token获取
 
 ```
-请求基本地址:http://localhost/token  
+地址：/token
 
 参数说明:
 {
@@ -192,7 +195,8 @@ queryConditionItem:多条件查询
 |0     |普通磅单|   |
 |1     |冲红磅单|   |
 |2     |补录磅单|   |
-|3     |退料磅|   |
+|3     |退料磅  |   |
+
 
 **表2照片信息**
 
@@ -204,6 +208,7 @@ queryConditionItem:多条件查询
 |iV_Col3     |string     |摄像头位置   |
 |iV_Col4     |string     |进场/出场   |
 |iV_Col6     |string     |照片信息(base64字符串)   |
+|iV_Col7     |string     |照片路径地址  |
 
 
 照片显示接口和传参方式：
@@ -385,7 +390,8 @@ queryConditionItem:多条件查询
 |0     |普通磅单|   |
 |1     |冲红磅单|   |
 |2     |补录磅单|   |
-|3     |退料磅|   |
+|3     |退料磅  |   |
+
 
 **表2照片信息**
 
@@ -397,6 +403,7 @@ queryConditionItem:多条件查询
 |iV_Col3     |string     |摄像头位置   |
 |iV_Col4     |string     |进场/出场   |
 |iV_Col6     |string     |照片信息(base64字符串)   |
+|iV_Col7     |string     |照片路径地址  |
 
 
 照片显示接口和传参方式：
